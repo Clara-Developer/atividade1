@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esportes</title>
+    <style>
+        /* Fonte personalizada */
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+        /* Estilos gerais */
+        body {
+            font-family: 'Indie Flower', cursive;
+            background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Fundo escuro para melhor leitura */
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 15px;
+            margin: 50px auto;
+            width: 60%;
+        }
+
+        /* Estilização do título */
+        #titulo {
+            font-size: 2.5em;
+            color: #ffcc00;
+            text-shadow: 2px 2px 5px #000;
+        }
+
+        /* Estilização da lista */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        li {
+            background: rgba(34, 139, 34, 0.8);
+            padding: 15px;
+            margin: 10px auto;
+            width: 70%;
+            font-size: 1.5em;
+            border-radius: 10px;
+            transition: 0.3s;
+            color: #fff;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Efeito hover */
+        li:hover {
+            background: #228b22;
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="titulo">🏕️ Esportes 🌿</h1>
+
+        <ul>
+            <li>⚽ Futebol</li>
+            <li>🏐 Vôlei</li>
+            <li>🏀 Basquete</li>
+            <li>🎾 Tênis</li>
+            <li>🏊‍♂️ Natação</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
