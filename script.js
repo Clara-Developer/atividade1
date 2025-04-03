@@ -1,5 +1,7 @@
 let titulo = document.getElementById("titulo");
 console.log(titulo);
+titulo.textContent = "Meus esportes favoritos";
+titulo.style.color ="blue";
 
 let descrição = document.getElementsByClassName("descrição");
 console.log(descrição[0]);
@@ -34,3 +36,15 @@ console.log(li[4]);
 let tituloQS = document.querySelector("#titulo");
 let paragrafoQS = document.querySelectorAll(".descrição");
 console.log("Exibindo com Query Selector" + tituloQS.textContent);
+
+const lista = document.querySelector("ul");
+const novoEsport1 = document.createElement("li");
+novoEsport1.textContent = "Ping Pong";
+novoEsport1.classList.add("esporte");
+
+const novoEsport2 = document.createElement("li");
+novoEsport2.textContent = "Ginástica";
+novoEsport2.classList.add("esporte");
+
+lista.appendChild(novoEsport1);
+lista.appendChild(novoEsport2);
